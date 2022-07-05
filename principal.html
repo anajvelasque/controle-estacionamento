@@ -1,0 +1,44 @@
+<html>
+    <!DOCTYPE html>
+    <head>
+        <title>Home</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="style-home.css"/>
+    </head>
+    
+    <body>
+        <nav class="navigation">
+            <div class="navigation-inner site-container">
+                <div class="main-navigation">
+                    <ul class="main-navigation-ul">
+                        <li><a href="principal.html">Home</a></li>
+                        <li><a href="formulario-entrada.html">Formulário Entrada</a></li>
+                        <li><a href="formulario-pagamento.html">Formulário Pagamento</a></li> 
+                    </ul>
+                </div>
+                <div id="btnBurguer" class="burguer-cnt" onclick="menuFn(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+                <script>
+                    function menuFn(x){
+                        x.classList.toggle("change");
+                    }
+                </script>
+            </div>
+        </nav>
+        <section class="section-top-banner">
+            <div class = "top-banner__inner site-container">
+                <div class = "top-banner__text">
+                    <div class = "top-banner__text-up">
+                        <h2 class = "top-banner__h2">Bem-vindo!</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script src="js/JQuery/jquery-3.6.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
