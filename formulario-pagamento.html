@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+
+    <head>
+        <!-- Metadados -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+        <!-- CSS -->
+        <link rel="stylesheet" type="text/css" href="formulario.css" media="screen">
+
+        <!-- Título da página (aparece na aba) -->
+        <title>Pagamento Estacionamento</title>
+    </head>
+
+    <body>  
+
+        <div>
+            <h1 id="titulo">Pagamento estadia</h1>
+            <br>
+        </div>
+
+        <!-- Início do formulário -->
+        <form>
+            <div class="placa">
+                <label for="placa"><strong>Placa do Carro</strong></label>
+                <input type="text" name="placa" id="placa" required> <!--Aqui não é input, temos que ter retorno da placa do banco-->
+            </div>
+
+            <!-- Não é input-->
+            <div class="campo">
+                <label for="cpf"><strong>CPF</strong></label>
+                <input type="text" name="cpf" id="cpf" required>
+            </div>
+
+            <div class="campo" >
+                <label><strong>Chave no local?</strong></label>
+                <label>
+                    <input type="radio" name="devweb" value="sim" checked>Sim
+                </label>
+                <label>
+                    <input type="radio" name="devweb" value="nao">Não
+                </label>
+            </div>
+
+            <!-- Campo com opções de Plano -->
+            <div class="campo">
+                <label for="senioridade"><strong>Plano</strong></label>
+                <select id="senioridade" required>
+                  <option selected disabled value="">Selecione</option>
+                  <option>Por hora</option>
+                  <option>Diária</option>
+                  <option>Quinzenal</option>
+                  <option>Mensal</option>
+                  <option>Semestral</option>
+                </select>
+            </div>
+
+            <!-- Botão para enviar o formulário -->
+            <button class="botao" type="submit" onsubmit="">Concluído</button>            
+
+        </form>
+
+    </body>
+
+</html>
