@@ -3,9 +3,12 @@ header{
     padding: 20px 0;
 }
 
-.caixa{
-    position: relative;
-    width: 940px;
+#menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90px;
     margin: 0 auto;
 }
 
@@ -22,7 +25,7 @@ nav li{
 
 nav a{
     text-transform: uppercase;
-    color: #ABA1F5;
+    color: #5FD068;
     font-weight: bold;
     font-family: sans-serif, monospace;
     font-size: 25px;
@@ -34,7 +37,7 @@ main{
 }
 
 nav a:hover{
-    color: #BC3EC6;
+    color: #4B8673;
     text-decoration: underline;
 }
 
@@ -52,7 +55,7 @@ nav a:hover{
     margin: 0 1.5%;
     padding: 30px 20px;
     box-sizing: border-box;
-    border-color: #ABA1F5;
+    border-color: #4B8673;
     border-width: 2px;
     border-style: solid;
     border-radius: 6px;
@@ -60,7 +63,7 @@ nav a:hover{
 }
 
 .produtos li:hover{
-    border-color: #BC3EC6;
+    border-color: #4B8673;
 }
 
 .produtos li:hover h2{
@@ -68,7 +71,7 @@ nav a:hover{
 }
 
 .produtos li:active{
-    border-color: #76B8FB;
+    border-color: #5FD068;
 }
 
 .produtos h2{
@@ -117,7 +120,7 @@ footer img{
 }
 
 .copyright{
-    color: #ABA1F5;
+    color: #4B8673;
     font-size: 19px;
     margin-top: 20px;
 }
@@ -153,8 +156,8 @@ form label, form legend{
 .enviar{
     width: 40%;
     padding: 15px 0;
-    background: #B55FDE;
-    background: linear-gradient(0deg, #B55FDE 0%, #BC3EC6 100%);
+    background: #4B8673;
+    background: linear-gradient(0deg, #4B8673 0%, #5FD068 100%);
     color: white;
     margin: 2rem auto;
     margin: 2rem auto;
@@ -169,8 +172,8 @@ form label, form legend{
 }
 
 .enviar:hover, .enviar:focus{
-    background: #BC3EC6;
-    background: linear-gradient(0deg, #BC3EC6 0%, #D8A7B1 100%);
+    background: #4B8673;
+    background: linear-gradient(0deg, #4B8673 0%, #F5DF99 100%);
     transform: scale(1.2);
 }
 
@@ -180,19 +183,19 @@ table{
 
 thead{
     font-family: sans-serif, monospace;
-    background: #BC3EC6;
+    background: #4B8673;
     color: white;
     font-weight: bold;
 }
 
 td, th{
     font-family: sans-serif, monospace;
-    border: 1px solid #B55FDE;
+    border: 1px solid #4B8673;
     padding: 8px 15px;
 }
 
 @media screen and (max-width: 480px) {
-    .caixa, .produtos{
+    #menu, .produtos{
         width: auto;
     }
 
