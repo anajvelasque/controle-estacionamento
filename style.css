@@ -9,13 +9,17 @@ header{
     left: 0;
     width: 100%;
     height: 90px;
-    margin: 0 auto;
 }
 
 nav{
-    position: absolute;
-    top: 110px;
+    position: fixed;
+    top: 0px;
     right: 0px;
+    width: 100%;
+    height: 50px;
+    background-color: #F5DF99;
+    text-align: center;
+    padding: 5px 5px;
 }
 
 nav li{
@@ -25,7 +29,7 @@ nav li{
 
 nav a{
     text-transform: uppercase;
-    color: #5FD068;
+    color: #4B8673;
     font-weight: bold;
     font-family: sans-serif, monospace;
     font-size: 25px;
@@ -37,7 +41,7 @@ main{
 }
 
 nav a:hover{
-    color: #4B8673;
+    color: #F6FBF4;
     text-decoration: underline;
 }
 

@@ -35,7 +35,7 @@
     top: 0px;
     left: 0px;
     background: black;
-    /*opacity: .9;*/
+    opacity: .9;
 }
 .main-navigation-ul{
     position: absolute;
